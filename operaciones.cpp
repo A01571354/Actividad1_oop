@@ -1,36 +1,30 @@
-//
-//  operaciones.cpp
-//
-//  Created by Ma. Guadalupe Roque Díaz de León on 26/10/22.
-//
+// operaciones.cpp
 
 #include <iostream>
-#include <string>
 using namespace std;
 
-void operaNumeros( ){
-    //1.  Declararación de variables
-    
+int main(){
+    int n1,n2;
+    int suma = 0;
+    int resta = 0;
+    int multiplicacion = 0;
+    int division = 0;
 
-    //2. leer 2 números x teclado
-    
-    
-    // 3. Leer opcion - sin mostrar los mensajes
-    //cout << "<S> Mostrar la suma de 2 numeros" << endl <<
-    //"<R> Mostrar la resta de 2 numeros" << endl <<
-    //"<M> Mostrar la multiplicacion de 2 numeros" << endl;
-    
- 
-    
-    // Determinar la opcion elegida y llevar a acabo la operación aritmética, para
-    // desplegar el resultado
-    // en caso de ser una operación diferente desplegar "opcion incorrecta"
-    
-}
+    cout << "dame un numero: ";
+    cin >> n1;
+    cout << "dame otro numero: ";
+    cin >> n2;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    
-    
+    suma = n1+n2;
+    resta = n1-n2;
+    multiplicacion = n1 * n2;
+    division = n1 / n2;
+
+    cout << "la suma es: " << suma << endl;
+    cout << "la resta es: " << resta << endl;
+    cout << "la multipilcacion es: " << multiplicacion << endl;
+    cout << "la division es: " << division << endl;
+
     return 0;
+
 }
